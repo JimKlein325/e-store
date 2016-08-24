@@ -1,0 +1,63 @@
+{ "products": [
+  {
+  "title": "REI Back Country 55",
+  "description": "A rugged, yet light-wieght, trekking pack.",
+  "category": "Backpacks",
+  "price": 154.00
+},
+{
+"title": "Osprey Mount Hood 65",
+"description": "A rugged, yet light-wieght, trekking pack.",
+"category": "Backpacks",
+"price": 254.00
+},
+{
+"title": "Classic Fjallraven Kanken",
+"description": "A rugged, yet light-wieght, trekking pack.",
+"category": "Backpacks",
+"price": 354.00
+},
+{
+"title": "Danner Frankenstein Trekker",
+"description": "A rugged, yet light-wieght, trekking pack.",
+"category": "Boots",
+"price": 54.00
+},
+{
+"title": "Merrel Hopper ",
+"description": "A rugged, yet light-wieght, trekking pack.",
+"category": "Boots",
+"price": 74.00
+},
+{
+"title": "Keen Creek Splasher",
+"description": "A rugged, yet light-wieght, trekking pack.",
+"category": "Boots",
+"price": 254.00
+},
+{
+"title": "Nike Trail Runner Special",
+"description": "A rugged, yet light-wieght, trekking pack.",
+"category": "Boots",
+"price": 154.00
+},
+{
+"title": "Sierra Design Backcountry Bed",
+"description": "A rugged, yet light-wieght, trekking pack.",
+"category": "SleepingBag",
+"price": 154.00
+},
+{
+"title": "Kelty Cat's Meow",
+"description": "A rugged, yet light-wieght, trekking pack.",
+"category": "SleepingBag",
+"price": 254.00
+},
+{
+"title": "REI Down Special",
+"description": "A rugged, yet light-wieght, trekking pack.",
+"category": "SleepingBag",
+"price": 124.00
+}
+]
+}
