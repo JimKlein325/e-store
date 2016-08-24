@@ -1,0 +1,9 @@
+{{#if eStore.items}}
+{{#each eStore.items as |product|}}
+  <h2>{{product.title}} -- ${{product.price}}</h2>
+{{/each}}
+<hr>
+<h2>Total: ${{cart-total eStore.items}}</h2>
+{{else}}
+<p>There are no products in your shopping cart yet.</p>
+{{/if}}
