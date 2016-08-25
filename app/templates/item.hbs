@@ -5,3 +5,6 @@
 <h5>
   {{model.description}} -- ${{model.price}}
 </h5>
+<button {{action "addToCart" model}}>Add to Cart</button>
+{{product-rating product=model saveRating="saveRating"}}
+{{product-review product=model saveReview="saveReview"}}

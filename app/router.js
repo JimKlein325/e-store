@@ -10,6 +10,7 @@ Router.map(function() {
   // });
   this.route('item', {path: '/:product_id'});
   this.route('cart');
+  this.route('admin');
 });
 
 export default Router;

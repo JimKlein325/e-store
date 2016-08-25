@@ -4,5 +4,4 @@
 {{#each model as |product|}}
   {{#link-to 'item' product.id}}<h2>{{product.title}} -- $ {{product.price}}</h2>{{/link-to}} <button {{action "addToCart" product}}>Add to Cart</button>
 {{/each}}
-{{display-cart}}
 {{outlet}}
