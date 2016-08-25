@@ -1,12 +1,13 @@
 
 
+
 {{#if updateForm}}
   <form>
     <div class="form-group">
       <label>Quantity</label>
       {{input value=quantity}}
     </div>
-    <button {{action 'orderMore' product}}>Order More</button>
+    <button {{action 'orderMore'}}>Order More</button>
   </form>
   {{else}}
     <button {{action 'showForm'}}>Add Inventory</button>

@@ -2,8 +2,10 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
 
-  action: {
+  actions: {
     orderMore(params){
+      var test = params.product;//.get('quantity');
+      debugger;
       this.sendAction('orderMore', params);
     }
   }

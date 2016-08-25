@@ -7,12 +7,13 @@ export default Ember.Component.extend({
       showForm(){
         this.set('updateForm', true);
       },
-      orderMore(product){
+      orderMore(){
         var params = {
-          quanity: this.get('quantity'),
+          quantity: this.get('quantity'),
           product: this.get('product')
         };
         this.set('updateForm', false);
+        debugger;
         this.sendAction('orderMore', params);
       }
     }
