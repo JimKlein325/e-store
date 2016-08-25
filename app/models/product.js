@@ -6,6 +6,6 @@ export default DS.Model.extend({
   description: DS.attr(),
   price: DS.attr('number'),
   comments: DS.hasMany('comment', {async:true}),
-  ratings: DS.hasMany('rating', {async:true})
-
+  ratings: DS.hasMany('rating', {async:true}),
+  productItems: DS.hasMany('product-item', {async:true})
 });
