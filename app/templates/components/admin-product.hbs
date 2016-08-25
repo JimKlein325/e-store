@@ -1,0 +1,12 @@
+{{#each model as |product|}}
+  {{#link-to 'item' product.id}}<h2>{{product.title}} -- $ {{product.price}}</h2>{{/link-to}}
+  {{add-inventory product=product orderMore="orderMore"}}
+{{#if product.productItems}}
+
+{{else}}
+<h5>Out of Stock!!</h5>
+
+{{/if}}
+
+
+{{/each}}

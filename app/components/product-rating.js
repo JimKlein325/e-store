@@ -16,7 +16,6 @@ export default Ember.Component.extend({
       var params = {
         rating: this.get('rating'),
         product: this.get('product')
-
       };
       this.set('rating',"")
       this.sendAction('saveRating',params)
